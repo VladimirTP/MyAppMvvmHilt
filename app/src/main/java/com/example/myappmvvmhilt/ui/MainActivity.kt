@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
                 .load(it.url)
                 .into(imageView)
         }
-
         vm.getImage()
     }
 }
